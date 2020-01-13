@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from './componets/Layout/Layout'
 import BurgerBuilder from './containers/BurgerBulder/BurgerBuilder';
 class App extends Component {
+
   render() {
     return (
       <div >
