@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-import Aux from '../../hoc/Wrapper';
 import Burger from '../../componets/Burger/Burger';
 import BuildControls from '../../componets/Burger/BuildControls/BuildControls';
 import Modal from '../../componets/UI/Modal/Modal';
@@ -25,7 +24,6 @@ class BurgerBuilder extends Component {
             cheese: 1,
             meat: 1
         },
-        ingredients: null,
         totalPirce: 4,
         purchasable: false,
         purchasing: false,
@@ -159,7 +157,6 @@ class BurgerBuilder extends Component {
         if (this.state.loading) {
             orderSummary = <Spinner />
         }
-
 
         return (
 
