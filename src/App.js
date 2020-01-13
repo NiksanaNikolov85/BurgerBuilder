@@ -3,12 +3,11 @@ import Layout from './componets/Layout/Layout'
 import BurgerBuilder from './containers/BurgerBulder/BurgerBuilder';
 class App extends Component {
 
-
   render() {
     return (
       <div >
         <Layout>
-          < BurgerBuilder />
+          <BurgerBuilder />
         </Layout>
       </div >
     );
