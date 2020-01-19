@@ -1,8 +1,10 @@
 import React from 'react'
 import classes from './burger.module.css'
 import BurgerIn from './BurgerIn/BurgerIn'
+import { withRouter } from 'react-router-dom';
 
 const burger = (props) => {
+    console.log(props)
     if (!props || !props.ingredients) {
         return null;
     }
@@ -30,4 +32,4 @@ const burger = (props) => {
     )
 }
 
-export default burger;
+export default withRouter(burger);
